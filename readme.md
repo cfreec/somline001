@@ -1,4 +1,4 @@
-# Someline Starter PHP Framework
+# Someline Starter PHP Framework a
 
 Tested and used in production by __Someline Inc__.
 
@@ -6,7 +6,7 @@ Tested and used in production by __Someline Inc__.
 [![Software License][ico-license]](LICENSE.md)
 
 [Someline Starter](https://starter.someline.com/) is a PHP framework for quick building Web Apps and Restful APIs, with modern design pattern foundation.
- 
+
 It is built on top of popular `Laravel 5.8 framework`, `Vue.js 2.6`, `Restful API`, `Repository Design`, `OAuth2`, `JWT`, `Unit Tests`, isolated front-end and back-end layer.
 
 ## Someline Starter is born for 3 reasons:
@@ -19,11 +19,11 @@ It is built on top of popular `Laravel 5.8 framework`, `Vue.js 2.6`, `Restful AP
 
 ## See In Action
 
-##### [Someline Starter Demo](https://starter.someline.com/) 
+##### [Someline Starter Demo](https://starter.someline.com/)
 
 Frontend with Vue.js and displaying data via Restful API
 
-Email: libern@someline.com 
+Email: libern@someline.com
 
 Password: Abc12345
 
@@ -49,7 +49,7 @@ It is fully utilised Repository Design pattern.
 
 ## Out-of-box Components
 
-##### If you are not familiar with any of these packages, you are recommended to get to know them as they are really helpful when you needed. 
+##### If you are not familiar with any of these packages, you are recommended to get to know them as they are really helpful when you needed.
 
 *Framework*
 - Laravel 5.8 [laravel/framework](https://github.com/laravel/framework)
@@ -77,7 +77,7 @@ It is fully utilised Repository Design pattern.
 
 *Theme*
 - Angulr theme with Bootstrap and jQuery support. For Demo: [Angular version](http://flatfull.com/themes/angulr/angular/#/app/dashboard-v1) and [HTML version](http://flatfull.com/themes/angulr/html/).
-  
+
   *Please [buy a license](http://themeforest.net/item/angulr-bootstrap-admin-web-app-with-angularjs/8437259?ref=Flatfull) if you use this in your project.*
 
 *Frontend*
@@ -217,7 +217,7 @@ sudo chmod 600 storage/oauth-*.key
 
 ### Ready to go
 
-Until this point, you should be able to visit the home page. 
+Until this point, you should be able to visit the home page.
 
 For example, if you have set the domain: `http://someline-starter.sl/`.
 
@@ -255,9 +255,9 @@ We recommend use [PHPStorm IDE](https://www.jetbrains.com/phpstorm/) to build an
 
 The default namespace for `app/` folder is `Someline`.
 
-It is NOT recommended to change the namespace, if you are not familiar with namespace of Someline Starter as the `Someline` namespace is used heavily within whole project. 
+It is NOT recommended to change the namespace, if you are not familiar with namespace of Someline Starter as the `Someline` namespace is used heavily within whole project.
 
-However, you can still change it if you know how what you are doing, because some namespaces required manually changing. 
+However, you can still change it if you know how what you are doing, because some namespaces required manually changing.
 
 To change namespace to your preference:
 ```
@@ -266,7 +266,7 @@ php artisan app:namespace YourApp
 
 #### BaseClass
 
-In order to utilize all features provided by Someline Starter, you should extended the Class from BaseClass (if there has one), e.g. `BasePresenter`, `BaseController`, etc. 
+In order to utilize all features provided by Someline Starter, you should extended the Class from BaseClass (if there has one), e.g. `BasePresenter`, `BaseController`, etc.
 
 #### Models
 
@@ -298,7 +298,7 @@ API Routes are defined in file `routes/api.php`
 
 API Controllers are defined in folder `app/Api/Controllers/`
 
-When you create APIs, you need to test them before you can use it. You should test all APIs using Unit Tests provided or create new Unit Tests. Not recommended to test using Browser or Postman, etc. 
+When you create APIs, you need to test them before you can use it. You should test all APIs using Unit Tests provided or create new Unit Tests. Not recommended to test using Browser or Postman, etc.
 
 #### Repository Pattern
 
@@ -354,7 +354,7 @@ npm run theme
 
 #### API and Unit Tests
 
-__Note:__ 
+__Note:__
 
 You may need to change the `local` service configs under `dev` environment from `config/rest-client.php` to fit your local development configurations.
 
@@ -378,7 +378,7 @@ Log Viewer HTTP URL: `http://someline-starter.sl/console/logs`
 
 #### Database
 
-##### We recommend to use migrations for database structure and seeding. 
+##### We recommend to use migrations for database structure and seeding.
 
 Directly changing from database or not follow migrations is strongly NOT recommended.
 
